@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "autorun": true,
+    "autokill": true,
+    "terminals": [
+        {
+            "name": "Docker",
+            "description": "For running docker compose",
+            "open": true,
+            "focus": true,
+            "commands": [
+                "pwd",
+                "docker-compose up"
+            ]
+        }
+    ]
+}
